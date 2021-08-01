@@ -16,6 +16,10 @@ body {
   padding-left: 20px;
 }
 
+.container1 > div{
+    cursor: pointer;
+}
+
 .nav {
   padding: 5px;
 }
@@ -110,6 +114,8 @@ body {
 .para4 {
   grid-row-start: 1;
   grid-row-end: 4;
+  border: 20px solid black;
+  border-radius: 10px;
 }
 
 @media (max-width: 700px) {
@@ -144,5 +150,28 @@ body {
     background-color: white;
     border-right: none !important;
     padding: 40px;
+  }
+
+  .conatiner4 {
+    grid-template-columns: auto;
+  }
+
+  .para1 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+  .para2 {
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+  .para3 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+  .para4 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 20px solid black;
+    border-radius: 10px;
   }
 }
