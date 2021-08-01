@@ -118,7 +118,36 @@ body {
   border-radius: 10px;
 }
 
-@media (max-width: 700px) {
+.container5{
+    padding: 80px;
+}
+
+.container5 > h2{
+    text-align: center;
+}
+
+.container5 > div {
+    text-align: center;
+    padding: 0 200px;
+}
+
+.container6 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 80px;
+    margin: 10px;
+    flex: wrap;
+}
+
+.container6 div img{
+    width: 30%;
+    height: 30%;
+}
+.container6 > div{
+    flex-basis: 20%;
+}
+
+@media (max-width: 800px) {
   .large_image {
     display: none;
   }
@@ -174,4 +203,22 @@ body {
     border: 20px solid black;
     border-radius: 10px;
   }
+
+  .container5{
+      padding: 20px;
+  }
+
+  .container5 > h2 {
+    text-align: center;
+    padding: 0 40px;
+}
+
+  .container5 > div {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.container6{
+    flex-direction: column;
+}
 }
